@@ -48,9 +48,7 @@ Work: each Fibonacci number from 0 to n is computed once, and each computation d
 
 => Work = O(n)
 
-Span: The longest sequence of dependent recursive calls goes from `fib_top_down(n)` down to `fib_top_down(0)`.
-
-=> Span = O(n)
+Span: The longest sequence of dependent recursive calls makes span also = O(n)
 
 - **8)**
 
